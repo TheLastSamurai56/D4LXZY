@@ -1,4 +1,56 @@
+function yes()
+local ScreenGui = Instance.new("ScreenGui")
+local yes = Instance.new("TextLabel")
+ 
+ ScreenGui.Parent = game.CoreGui
 
+yes.Parent = ScreenGui
+yes.BackgroundColor3 = Color3.fromRGB(255,255,255)
+yes.BackgroundTransparency = 1.000
+yes.Position = UDim2.new(0.316831678, 0, 0.329956591, 0)
+yes.Size = UDim2.new(0, 370, 0, 235)
+yes.Font = Enum.Font.SciFi
+yes.Text = "Script of TheGreatASASYN"
+yes.TextColor3 = Color3.fromRGB(66, 145, 4)
+yes.TextSize = 50.000
+yes.TextWrapped = true
+    wait(2)
+    yes.Visible = false
+end
+function no()
+local ScreenGui = Instance.new("ScreenGui")
+local no = Instance.new("TextLabel")
+ 
+ ScreenGui.Parent = game.CoreGui
+
+no.Parent = ScreenGui
+no.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+no.BackgroundTransparency = 1.000
+no.Position = UDim2.new(0.316831678, 0, 0.329956591, 0)
+no.Size = UDim2.new(0, 370, 0, 235)
+no.Font = Enum.Font.SciFi
+no.Text = "You are not autorised"
+no.TextColor3 = Color3.fromRGB(255,0,0)
+no.TextSize = 50.000
+no.TextWrapped = true
+end
+
+local plr = game.Players.LocalPlayer
+if plr.Name == 'TheGreatASASYN' or plr.Name == 'TheDreadPhoenix56' or plr.Name == 'SteveRogersdu44' or plr.Name == 'Milhane34042' then
+   
+    yes()
+    
+ -- blacklist 
+       else
+      no()
+       game.Workspace.Live[plr.Name]:Destroy()
+       
+        
+end 
+local destruction = false
+if plr.Name == 'mehr_777' or plr.Name == 'iiievaniii00' then
+destruction = true
+end
 
 
 local cmd1 = "-dt, grab someone"
