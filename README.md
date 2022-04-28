@@ -3842,5 +3842,3 @@ Player.Chatted:connect(function(cht)
     end
 end)
 
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/llCreepZll/llCreepZll/DBZFS_Scripts/instarespawnnew"))();
