@@ -68,7 +68,7 @@ local Player = game.Players.LocalPlayer
 Player.Chatted:connect(function(cht)
 	if cht:match("-cmds") then
 		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "FS Cmds By D4RKLXZY";
+			Title = "FS Cmds By D4RKLXZY/TheLastSamurai";
 			Text = "Press F9 To View The Cmds";
 		})
 		print(cmd1)
