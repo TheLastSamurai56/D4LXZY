@@ -1,4 +1,4 @@
-Script By D4LXZY & Last Samourai
+
 
 
 local cmd1 = "-dt, grab someone"
