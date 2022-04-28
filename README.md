@@ -151,7 +151,7 @@ repeat wait(4) until game:IsLoaded()
 
            game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "D4LXZY CDMS";
-    Text = "Pourquoi tu script?  /  What you use script?";
+    Text = "What you use script?";
  
 })
 
